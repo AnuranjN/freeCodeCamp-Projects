@@ -1,0 +1,39 @@
+<!--This is the CSS file for tribute page-->
+
+img{
+  display:block;
+  max-width:100%;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+header{
+background-color:#e6e6e6;
+}
+
+h1,p{
+  text-align:center;
+}
+section{
+  background-color:#e6e6e6;
+}
+.center{
+  text-align:center;
+}
+
+ul{
+  display:inline-block;
+  text-align:left;
+}
+
+.end-text{
+  margin-left:auto;
+  margin-right:auto;
+  max-width:50%;
+  text-align:left;
+}
+
+figcaption{
+  text-align:center;
+}
