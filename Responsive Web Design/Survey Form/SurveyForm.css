@@ -1,0 +1,28 @@
+h1,#description{
+  text-align:center;
+}
+label{
+  display:block;
+  
+}
+form{
+  background-color:grey;
+  opacity:.8;
+  max-width:70%;
+  margin:0 auto;
+  
+  
+  
+}
+body{
+  
+  background-image:url("https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg");
+  background-size:cover;
+  font-family:sans-serif;
+  
+
+}
+input,select{
+  background-color:black;
+  color:white;
+}
