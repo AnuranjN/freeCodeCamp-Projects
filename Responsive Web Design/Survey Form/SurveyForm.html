@@ -1,1 +1,46 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform<p>
+    <form id="survey-form">
+    <fieldset>
+      <label id="name-label">Name
+      <input type="text" id="name" placeholder="Enter your name" required></label>
+      <label id="email-label">Email
+        <input id="email" type="email" placeholder="Enter your email" required></label>
+      <label id="number-label">Age
+        <input id="number" type="number" placeholder="Age" min="10" max="20" required></label>
+       <select id="dropdown">
+         <option value="">Select current role</option>
+         <option value="1">Student</option>
+         <option value="2">Full Time Job</option>
+        </select>
+       <label>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <input name="recommend" type="radio" value="Def" >Definitely</label><label>
+        <input name="recommend" type="radio" value="may" >Maybe</label> <label>
+        <input name="recommend" type="radio" value="recom">Not sure</label> 
+        <p>What is your favorite feature of freeCodeCamp?</p>
+        <select id="dropdown">
+         <option value="">Select an option</option>
+         <option value="1">Challenges</option>
+         <option value="2">Projects</option>
+        </select>
+        <label>
+          <input type="checkbox" value="front">Front-end Projects</label>
+          <input type="checkbox" value="back">Back-end Projects</label><label>
+          <input type="checkbox" value="data">Data Visualisation</label>
+          <textarea>Any comments or suggestions></textarea>
+          
+          <input  id="submit" type="submit">
+          
+          
+</form>
+</body>
+</html>
